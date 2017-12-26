@@ -106,88 +106,88 @@
           <Properties>
             <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
               <Table columnCount="33" rowCount="4">
-                <Column editable="false" title="&#x417;&#x43d;." type="java.lang.Object">
+                <Column editable="false" title="" type="java.lang.Object">
                   <Data value="&#x411;&#x430;&#x439;&#x442;"/>
                   <Data value="&#x2116; &#x431;&#x438;&#x442;&#x430;"/>
                   <Data value="&#x412;&#x435;&#x441; &#x431;&#x438;&#x442;&#x430;"/>
                   <Data value="&#x431;&#x438;&#x442;"/>
                 </Column>
-                <Column editable="true" title="&#x425;" type="java.lang.Object">
+                <Column editable="true" title="&#x417;&#x43d;." type="java.lang.Object">
                   <Data value="&#x411;"/>
                   <Data value="null"/>
                   <Data value="null"/>
                   <Data value="null"/>
                 </Column>
-                <Column editable="true" title="&#x410;" type="java.lang.Object">
+                <Column editable="true" title="&#x425;" type="java.lang.Object">
                   <Data value="&#x410;"/>
+                  <Data value="null"/>
+                  <Data value="null"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="&#x410;" type="java.lang.Object">
+                  <Data value="&#x419;"/>
                   <Data value="null"/>
                   <Data value="null"/>
                   <Data value="null"/>
                 </Column>
                 <Column editable="true" title="&#x420;" type="java.lang.Object">
-                  <Data value="&#x419;"/>
+                  <Data value="&#x422;"/>
                   <Data value="null"/>
                   <Data value="null"/>
                   <Data value="null"/>
                 </Column>
                 <Column editable="true" title="&#x410;" type="java.lang.Object">
-                  <Data value="&#x422;"/>
+                  <Data value="&#x2116;"/>
                   <Data value="null"/>
                   <Data value="null"/>
                   <Data value="null"/>
                 </Column>
                 <Column editable="true" title="&#x41a;" type="java.lang.Object">
-                  <Data value="&#x2116;"/>
-                  <Data value="null"/>
-                  <Data value="null"/>
-                  <Data value="null"/>
-                </Column>
-                <Column editable="true" title="&#x422;" type="java.lang.Object">
                   <Data value="3"/>
                   <Data value="null"/>
                   <Data value="null"/>
                   <Data value="null"/>
                 </Column>
+                <Column editable="true" title="&#x422;" type="java.lang.Object"/>
                 <Column editable="true" title="&#x415;" type="java.lang.Object"/>
-                <Column editable="true" title="&#x420;." type="java.lang.Object"/>
-                <Column editable="true" title="&#x41c;" type="java.lang.Object">
+                <Column editable="true" title="&#x420;." type="java.lang.Object">
                   <Data value="&#x411;"/>
                   <Data value="null"/>
                   <Data value="null"/>
                   <Data value="null"/>
                 </Column>
-                <Column editable="true" title="&#x410;" type="java.lang.Object">
+                <Column editable="true" title="&#x41c;" type="java.lang.Object">
                   <Data value="&#x410;"/>
                   <Data value="null"/>
                   <Data value="null"/>
                   <Data value="null"/>
                 </Column>
-                <Column editable="true" title="&#x41d;" type="java.lang.Object">
+                <Column editable="true" title="&#x410;" type="java.lang.Object">
                   <Data value="&#x419;"/>
                   <Data value="null"/>
                   <Data value="null"/>
                   <Data value="null"/>
                 </Column>
-                <Column editable="true" title="&#x422;" type="java.lang.Object">
+                <Column editable="true" title="&#x41d;" type="java.lang.Object">
                   <Data value="&#x422;"/>
                   <Data value="null"/>
                   <Data value="null"/>
                   <Data value="null"/>
                 </Column>
-                <Column editable="true" title="&#x418;" type="java.lang.Object">
+                <Column editable="true" title="&#x422;" type="java.lang.Object">
                   <Data value="&#x2116;"/>
                   <Data value="null"/>
                   <Data value="null"/>
                   <Data value="null"/>
                 </Column>
-                <Column editable="true" title="&#x421;" type="java.lang.Object">
+                <Column editable="true" title="&#x418;" type="java.lang.Object">
                   <Data value="2"/>
                   <Data value="null"/>
                   <Data value="null"/>
                   <Data value="null"/>
                 </Column>
                 <Column editable="true" title="&#x421;" type="java.lang.Object"/>
-                <Column editable="true" title="&#x410;" type="java.lang.Object"/>
+                <Column editable="true" title="&#x421;" type="java.lang.Object"/>
                 <Column editable="true" title="" type="java.lang.Object">
                   <Data value="&#x411;"/>
                   <Data value="null"/>

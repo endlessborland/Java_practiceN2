@@ -75,7 +75,7 @@ public class FloatFrame extends BasicFrame {
                 {"бит", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null}
             },
             new String [] {
-                "Зн.", "Х", "А", "Р", "А", "К", "Т", "Е", "Р.", "М", "А", "Н", "Т", "И", "С", "С", "А", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""
+                "", "Зн.", "Х", "А", "Р", "А", "К", "Т", "Е", "Р.", "М", "А", "Н", "Т", "И", "С", "С", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""
             }
         ) {
             boolean[] canEdit = new boolean [] {
@@ -162,18 +162,20 @@ public class FloatFrame extends BasicFrame {
     }//GEN-LAST:event_startStraightActionPerformed
 
     private void startReverseActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_startReverseActionPerformed
-        String a = "0";
-        for (int i = 2; i < 33; i++)
+        String a = "";
+        for (int i = 2; i < 10; i++)
         {
             a += this.jTable2.getValueAt(3, i).toString();
         }
-        int b = Integer.parseInt(a, 2); 
-        this.Gresult = Float.intBitsToFloat(b); 
-        if (this.jTable2.getValueAt(3, 1).toString().contains("1"))
+        long charac = Long.parseLong(a, 2) - 127;
+        double result = Math.pow(2, charac);
+        for (int i = 10; i < 33; i++)
         {
-            Gresult *= - 1;
+            charac--;
+            result += (this.jTable2.getValueAt(3,i).toString().contains("0") ? 0 : 1) * Math.pow(2, charac);
         }
-        this.resultF.setText(this.Gresult + "");
+        result *= this.jTable2.getValueAt(3,1).toString().contains("0") ? 1 : -1;
+        this.resultF.setText(result + "");
     }//GEN-LAST:event_startReverseActionPerformed
 
     private void inputDecFocusLost(java.awt.event.FocusEvent evt) {//GEN-FIRST:event_inputDecFocusLost
