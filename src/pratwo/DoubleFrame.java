@@ -160,7 +160,10 @@ public class DoubleFrame extends BasicFrame {
         while (charac.length() < 11)
             charac = "0" + charac;
         number += charac;
+        
         String man = Long.toBinaryString(Long.parseLong(this.table.getValueAt(0, 2).toString()));
+        while (man.length() < 52)
+            man = "0" + man;
         number += man;
         //JOptionPane.showMessageDialog(null, number);
         String a = "";
@@ -178,7 +181,7 @@ public class DoubleFrame extends BasicFrame {
             } catch (Exception e) {}
         }
         result *= number.charAt(0) == '0' ? 1 : -1;
-        this.resultField.setText("" + result);
+        this.resultField.setText(Double.toString(result));
 
         
     }//GEN-LAST:event_jButton1ActionPerformed
